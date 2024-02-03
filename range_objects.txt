@@ -1,0 +1,12 @@
+create address_range IP_range_10.1.1.129-10.1.1.142
+modify network_objects IP_range_10.1.1.129-10.1.1.142 ipaddr_first 10.1.1.129
+modify network_objects IP_range_10.1.1.129-10.1.1.142 ipaddr_last 10.1.1.142
+modify network_objects IP_range_10.1.1.129-10.1.1.142 color 'forest green'
+create address_range IP_range_10.2.2.1-10.2.2.100
+modify network_objects IP_range_10.2.2.1-10.2.2.100 ipaddr_first 10.2.2.1
+modify network_objects IP_range_10.2.2.1-10.2.2.100 ipaddr_last 10.2.2.100
+modify network_objects IP_range_10.2.2.1-10.2.2.100 color 'forest green'
+create address_range IP_range_10.3.3.17-10.3.3.21
+modify network_objects IP_range_10.3.3.17-10.3.3.21 ipaddr_first 10.3.3.17
+modify network_objects IP_range_10.3.3.17-10.3.3.21 ipaddr_last 10.3.3.21
+modify network_objects IP_range_10.3.3.17-10.3.3.21 color 'forest green'
